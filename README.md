@@ -12,24 +12,23 @@ User-friendly graphical interface with Kivy
 Real-time image capture and verification
 
 Project Structure
-bash
-Copier
-Modifier
+
+
 ├── application_data/
 
 │   ├── input_image/
 
-│   │   └── input_image.jpg  # Captured from webcam
+│   │   └── input_image.jpg         
 
-│   └── verification_images/      # Stored reference images
+│   └── verification_images/          
 
-├── layers.py                     # Custom L1 distance layer
+├── layers.py  
 
-├── siamesemodel.h5               # Pretrained Siamese model
+├── siamesemodel.h5               
 
-├── main.py                       # Main Kivy app script
+├── main.py                       
 
-├── Face_Recong_notebook.ipynb    # Model training notebook
+├── Face_Recong_notebook.ipynb    
 
 └── README.md
 Installation
