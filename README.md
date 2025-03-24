@@ -16,13 +16,21 @@ bash
 Copier
 Modifier
 ├── application_data/
+
 │   ├── input_image/
-│   │   └── input_image.jpg       # Captured from webcam
+
+│   │   └── input_image.jpg  # Captured from webcam
+
 │   └── verification_images/      # Stored reference images
+
 ├── layers.py                     # Custom L1 distance layer
+
 ├── siamesemodel.h5               # Pretrained Siamese model
+
 ├── main.py                       # Main Kivy app script
+
 ├── Face_Recong_notebook.ipynb    # Model training notebook
+
 └── README.md
 Installation
 Clone the repository:
